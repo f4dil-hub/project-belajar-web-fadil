@@ -1,0 +1,116 @@
+
+/* Mengatur semua elemen */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Latar belakang halaman */
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eef1f4;
+}
+
+/* Kotak login */
+.login-box {
+    width: 350px;
+    max-width: calc(100% - 32px);
+    background-color: #ffffff;
+    padding: 35px 30px;
+    border-radius: 10px;
+    border: 1px solid #e1e5e9;
+    box-shadow: 0 8px 25px rgba(25, 42, 62, 0.08);
+}
+
+/* Judul login */
+h2 {
+    text-align: center;
+    color: #1e293b;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+/* Teks di bawah judul */
+.subtitle {
+    text-align: center;
+    color: #64748b;
+    font-size: 14px;
+    margin-bottom: 28px;
+}
+
+/* Jarak setiap kolom */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Label input */
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #334155;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Kolom input */
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    outline: none;
+    font-size: 14px;
+    background-color: #ffffff;
+    color: #1e293b;
+    transition: border-color 0.2s;
+}
+
+/* Efek saat kolom dipilih */
+input:focus {
+    border-color: #334e68;
+    box-shadow: 0 0 0 3px rgba(51, 78, 104, 0.1);
+}
+
+/* Placeholder */
+input::placeholder {
+    color: #94a3b8;
+}
+
+/* Tombol login */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #243b53;
+    color: #ffffff;
+    border: 1px solid #243b53;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+/* Efek hover tombol */
+button:hover {
+    background-color: #102a43;
+    border-color: #102a43;
+}
+
+/* Efek ketika tombol ditekan */
+button:active {
+    background-color: #334e68;
+}
+
+/* Teks bagian bawah */
+.footer {
+    text-align: center;
+    color: #94a3b8;
+    font-size: 12px;
+    margin-top: 22px;
+}
+

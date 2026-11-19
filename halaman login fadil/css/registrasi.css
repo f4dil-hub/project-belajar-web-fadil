@@ -1,0 +1,102 @@
+
+/* Reset semua elemen */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* Background halaman */
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #e8eee7;
+}
+
+/* Kotak registrasi */
+.register-box {
+    width: 100%;
+    max-width: 430px;
+    padding: 35px;
+    background-color: #fffdf8;
+    border: 1px solid #dce5da;
+    border-radius: 14px;
+    box-shadow: 0 12px 35px rgba(48, 66, 50, 0.10);
+}
+
+/* Judul */
+.register-box h2 {
+    text-align: center;
+    color: #293b30;
+    font-size: 26px;
+    margin-bottom: 28px;
+}
+
+/* Form */
+.register-box form {
+    width: 100%;
+}
+
+/* Hilangkan bullet list */
+.register-box ul {
+    list-style: none;
+}
+
+.register-box li {
+    margin-bottom: 18px;
+}
+
+/* Label */
+.register-box label {
+    display: block;
+    color: #35463a;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+/* Input dan dropdown */
+.register-box input,
+.register-box select {
+    display: block;
+    width: 100%;
+    height: 44px;
+    padding: 0 12px;
+    border: 1px solid #d7e0d5;
+    border-radius: 7px;
+    background-color: #f8faf5;
+    color: #293b30;
+    font-size: 14px;
+    outline: none;
+}
+
+/* Efek saat input dipilih */
+.register-box input:focus,
+.register-box select:focus {
+    border-color: #66856b;
+    box-shadow: 0 0 0 3px rgba(102, 133, 107, 0.12);
+}
+
+/* Tombol registrasi */
+.register-box button {
+    width: 100%;
+    height: 44px;
+    border: none;
+    border-radius: 7px;
+    background-color: #52745a;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.register-box button:hover {
+    background-color: #3d5d45;
+}
+
+
